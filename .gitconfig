@@ -1,6 +1,6 @@
 [user]
-  email = jaywonchung@snu.ac.kr
-  name = Jae-Won Chung
+  email = dh.kim@snu.ac.kr
+  name = Donghyun Kim
 [alias]
   last = log -1 HEAD
   unstage = reset HEAD --
