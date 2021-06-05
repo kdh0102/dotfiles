@@ -1,16 +1,16 @@
-# Dotfiles
+# Dotfiles (Folked from [jaywonchung/dotfiles](https://github.com/jaywonchung/dotfiles))
 
 ## Installing dotfiles on a new system
 
 Initialize the dotfile management environment.
 
 ```bash
-git clone --bare git@github.com:jaywonchung/dotfiles.git $HOME/.dotfiles
+git clone --bare git@github.com:kdh0102/dotfiles.git $HOME/.dotfiles
 git --git-dir=$HOME/.dotfiles --work-tree=$HOME checkout master
 source .dotmodules/init.sh
 ```
 
-**Warning.** My machines have SSH authentication set up with Github, so cloning with `git@github.com:jaywonchung/dotfiles.git` works. Others will have to clone with the URL `https://github.com/jaywonchung/dotfiles.git`.
+**Warning.** My machines have SSH authentication set up with Github, so cloning with `git@github.com:kdh0102/dotfiles.git` works. Others will have to clone with the URL `https://github.com/kdh0102/dotfiles.git`.
 
 Then checkout the desired system branch. For example, install the `ubuntu-server` settings with:
 
